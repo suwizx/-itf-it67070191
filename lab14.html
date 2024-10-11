@@ -193,7 +193,7 @@
         const csvContent = jsonToCsv(phoneList);
         const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
         
-        if (navigator.msSaveBlob) { // IE 10+
+        if (navigator.msSaveBlob) {
             navigator.msSaveBlob(blob, "phonebook.csv");
         } else {
             const link = document.createElement('a');
