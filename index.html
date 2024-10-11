@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-zinc-900 text-white min-w-screen min-h-screen p-4 w-screen">
-    <nav class="px-4 py-4 border w-full border border-zinc-700 my-2 rounded-lg flex justify-between items-center">
+    <nav class="px-4 py-4 border w-full gap-12 border border-zinc-700 my-2 rounded-lg flex justify-between items-center overflow-y-auto text-nowrap">
         <a href="/" class="text-2xl font-medium">I'am IT67070191</a>
-        <div>
+        <div class="flex gap-4 items-center">
+            <a href="./lab14.html" class="bg-transparent py-2 px-4 rounded-lg hover:scale-95 transition scale-100 hover:text-red-600 ">Lab 14</a>
             <a href="https://suwizx.dev/me" class="bg-red-500 py-2 px-4 rounded-lg hover:scale-95 transition scale-100 hover:bg-red-600 ">About Me</a>
         </div>
     </nav>
-    <div class="flex flex-wrap justify-center items-center content-center min-h-[80dvh] h-full">
+    <div class="flex flex-wrap justify-center items-center content-center min-h-[80dvh] h-full my-16 md:my-0">
         <img src="https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg"
             class="max-w-[250px] w-full h-auto aspect-square rounded-full mb-6 block"
             alt="Just Img">
@@ -35,7 +36,7 @@
             <button onclick="clickMe()" class="border-red-500 border rounded-lg py-2 px-4 hover:border-red-700">Click Me</button>
         </div>
     </div>
-    <footer class="py-2 text-center fixed bottom-0 w-full border-t border-zinc-600">
+    <footer class="py-2 text-center fixed bottom-0 left-0 w-full border-t border-zinc-600 bg-zinc-950">
         <p>THIS WEBSITE MADE FOR ITF | suwizx.dev</p>
     </footer>
 </body>
