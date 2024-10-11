@@ -21,7 +21,7 @@
     <div class="my-10 flex flex-wrap justify-center">
         <h1 class="font-medium text-2xl mb-4 text-center">
             My
-            <span id="displayName">Suwizx</span>
+            <a href="https://www.instagram.com/suwizx_" class="hover:text-blue-600 hover:underline" id="displayName">Suwizx</a>
             's Phone Book
         </h1>
         <div class="w-full mb-4">
@@ -29,7 +29,7 @@
                 <div class="w-[183px] h-[183px] block mx-auto relative">
                     <img id="imgDisplay" src="https://uploads.dailydot.com/2018/10/olli-the-polite-cat.jpg?q=65&auto=format&w=1600&ar=2:1&fit=crop" alt="User Profile" class="w-[183px] h-[183px] aspect-square object-cover  rounded-full absolute">
                     <div class="absolute right-0 bottom-0">
-                        <div class="bg-blue-600 px-4 py-2 rounded-full" id="numberDisplay">
+                        <div class="bg-red-500 px-4 py-2 rounded-full" id="numberDisplay">
                             3000
                         </div>
                     </div>
@@ -100,13 +100,14 @@
         },
     ]
 
-    let name = "Suwizx"
+    let name = "Suwijak Promsatid 67070191"
     let imageURL = "https://uploads.dailydot.com/2018/10/olli-the-polite-cat.jpg?q=65&auto=format&w=1600&ar=2:1&fit=crop"
     
 
     nameInput.value = name
     imgInput.value = imageURL
     numberDisplay.innerText = phoneList.length
+    displayName.innerText = name
 
     renderPhone()
 
